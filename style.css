@@ -93,7 +93,7 @@ nav {
     font-weight: 600;
 }
 
-/*     exclusives     */
+/* --------------exclusives---------- */
 
 .sub-title {
     margin: 50px 20px;
@@ -125,7 +125,7 @@ nav {
 }
 
 
-/*----------- Trending Places-----*/
+/*----------------- Trending Places---------------*/
 
 .trending {
     display: grid;
@@ -144,7 +144,7 @@ nav {
 }
 
 
-/* ------------------call to action--------- */
+/* ------------------call to action-------------- */
 
 .cta {
     margin: 80px 0;
@@ -177,7 +177,7 @@ nav {
     display: inline-block;
 }
 
-/* ------------Travelers Stories----------- */
+/* ----------------Travelers Stories---------------- */
 
 .stories {
     display: grid;
@@ -218,7 +218,7 @@ nav {
 }
 
 
-/* ----------------------about-msg--------- */
+/* ----------------------about-msg---------------- */
 
 .about-msg {
     text-align: center;
@@ -232,3 +232,43 @@ nav {
     margin-bottom: 30px;
     font-weight: 500;
 }
+
+/* ----------------------footer------------------ */
+.footer {
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr {
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p {
+    padding-bottom: 15px;
+}
+
+.active {
+    position: relative;
+}
+.active::after {
+    content: "";
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+}
+
+
+/* -------------------for small screen devices---------- */
