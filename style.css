@@ -382,3 +382,25 @@ nav .fa-bars {
         font-size: 15px;
     }
 }
+
+
+
+/* ------------------listin page------------- */
+
+.navbar-white {
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+}
+.navbar-white .nav-links li a {
+    color: #000;
+}
+.navbar-white .register-btn {
+    background: #FF5361;
+    color: white;
+}
+nav.navbar-white .fa-bars {
+    color: #000;
+}
+nav.navbar-white .active::after {
+    background: #ff5361;
+}
