@@ -625,4 +625,8 @@ nav.navbar-white .active::after {
     background: #fff;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 50px;
 }
